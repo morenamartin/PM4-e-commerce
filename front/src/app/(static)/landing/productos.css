@@ -1,0 +1,10 @@
+.titulo{
+    text-align: center;
+    font-size: 50px;
+    color: #f5bceb31;
+    font-weight: bold;
+}
+
+.tarjetitas-productos{
+    @apply flex flex-col items-center bg-violeta-400 p-10 pt-4 pb-4 rounded-3xl gap-11 text-black
+}

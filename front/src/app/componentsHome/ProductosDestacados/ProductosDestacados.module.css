@@ -1,0 +1,32 @@
+.section{
+    height: 500px;
+    background-color: #D9D9D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedorProductos{
+    background-color: #9F60A2 ;
+    height: 100%;
+    width: 33.333333%; 
+    padding: 12px;
+    transition: 0.5s ease;
+}
+
+.contenedorProductos:hover{
+    background-color: #8c558f;
+}
+
+.miniContenedorProductos{
+    background-color: #9F60A2 ;
+    height: 100%;
+    width: 60%; 
+    padding: 12px;
+    transition: 0.5s ease;
+}
+
+.miniContenedorProductos:hover{
+    background-color: #8c558f;
+}
+
