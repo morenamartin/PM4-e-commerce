@@ -66,3 +66,12 @@ export const getProductsByCategory = async (
         return[]
     }
 }
+
+////detail product
+// export const fetchProduct = async (id:string) => {
+//     const response = await fetch(`http://localhost:3004/productDetail/${id}`,{
+//         cache: "no-cache"
+//     })
+//     const product = await response.json()
+//     return product
+// }

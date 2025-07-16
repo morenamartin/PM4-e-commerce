@@ -7,14 +7,6 @@ import { redirect } from "next/navigation";
 import React, { useState } from "react"
 import AgregarProductoToCart from "./ProductComponent";
 
-export const fetchProduct = async (id:string) => {
-    const response = await fetch(`http://localhost:3004/productDetail/${id}`,{
-        cache: "no-cache"
-    })
-    const product = await response.json()
-    return product
-}
-
 
 type Params<T> = Promise<T>
 
@@ -27,6 +19,7 @@ export default async function Page({
 
     const [idString] = slug; 
     const id = Number(idString);
+    
 
     const product = await getProductById(id);
     if(!product) return redirect(routes.notFound)

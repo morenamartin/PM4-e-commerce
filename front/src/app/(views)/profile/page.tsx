@@ -7,8 +7,8 @@ import Alerta from "@/app/components/alerta/Alerta"
 import getUserOrders from "@/app/services/profile"
 import { useCartContext } from "@/app/context/CartContext"
 import { usePathname } from "next/navigation"
-
-const Profile:React.FC<IUser> = () => {  
+ 
+const Profile:React.FC = () => {  
     const {user, resetUserData, token} = useAuthContext()
     const {vaciarCarrito} = useCartContext()
     const [aviso, setAviso] = useState(false)
