@@ -31,7 +31,7 @@ const AgregarProductoToCart:React.FC<Partial<IProduct>> = ({id, name, price,imag
                     <span className="text-xl font-bold text-white">Agregando al carrito...</span>
                 </div>
             </div>}
-            {isAuth ? <button onClick={handleCartOnClick} disabled={boton} className="text-xl m-auto mb-3 mt-3 lg:mt-10 p-3 w-[90%] rounded-full bg-black">
+            {isAuth ? <button onClick={handleCartOnClick} disabled={boton} className="text-white text-xl m-auto mb-3 mt-3 lg:mt-10 p-3 w-[90%] rounded-full bg-black">
                 {boton == true ?  "AGREGADO" : "AGREGAR AL CARRITO"}
             </button>
             :
