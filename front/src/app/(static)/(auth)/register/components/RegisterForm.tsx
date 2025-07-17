@@ -115,7 +115,7 @@ const RegisterForm = () => {
                     />
 
                     <Input
-                        label="address"
+                        label="dirección"
                         id="address"
                         type="text"
                         name="address"
@@ -126,7 +126,7 @@ const RegisterForm = () => {
                     />
 
                     <Input
-                        label="phone"
+                        label="telefono"
                         id="phone"
                         type="phone"
                         name="phone"
@@ -137,7 +137,7 @@ const RegisterForm = () => {
                     />
 
                     <Input
-                        label="constraseña"
+                        label="contraseña"
                         id="password"
                         type= {showPass ? "text" : "password"}
                         name="password"
@@ -148,7 +148,7 @@ const RegisterForm = () => {
                     />
 
                     <Input
-                        label="confirmar constraseña"
+                        label="confirmar contraseña"
                         id="confirmPassword"
                         type= {showPass ? "text" : "password"}
                         name="confirmPassword"
