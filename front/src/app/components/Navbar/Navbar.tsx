@@ -53,7 +53,7 @@ const Navbar:React.FC = () => {
                     </div>
                 :
                     <div className="flex gap-6">
-                        <a href={routes.login} className="font-bold text-violeta-primario">Iniciar sesión</a>
+                        <a href={routes.login} className="px-2 py-1 font-bold bg-violeta-300 text-violeta-primario">Iniciar sesión</a>
                         <a href={routes.landing} className="font-bold text-violeta-primario">Landing</a>
                     </div>
             }  
