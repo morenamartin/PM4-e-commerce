@@ -12,7 +12,7 @@ const ProductoPrimario:React.FC = () => {
                 <p className="text-sm text-start text-gris-primario">Disfruta de música con sonido HD en cualquier lugar con el parlante portátil inalámbrico de 6.5 pulgadas. Su diseño compacto permite llevarlo fácilmente, mientras que su conectividad inalámbrica asegura una experiencia sin cables.</p>
                 <span className="mt-4 text-xl font-bold">$ 260</span>
                 <div className="flex justify-start">
-                    <a href="/productDetail/8/Parlante%20Bluetooth%20resistente%20al%20agua" className="p-2 pl-5 pr-5 bg-violeta-800 hover:bg-violeta-900">IR A COMPRAR</a>
+                    <a href="/productDetail/22/Parlante%20Bluetooth%20resistente%20al%20agua" className="p-2 pl-5 pr-5 bg-violeta-800 hover:bg-violeta-900">IR A COMPRAR</a>
                 </div>
             </div>
 
