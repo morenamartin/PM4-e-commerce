@@ -5,7 +5,7 @@ import Image from "next/image";
 import "../productos.css"
 
 //imagenes
-import mouseGamer from "../assets/mouseGamer.png"
+import pendrive from "../assets//pendrive.png"
 import auriculares from "../assets/auriculares.png"
 import mouseOficina from "../assets/mouseOficina.png"
 
@@ -18,20 +18,20 @@ const Productos:React.FC = () => {
             </div>
 
             <div className="flex flex-col flex-wrap items-center justify-between w-full gap-6 pt-10 md:flex-row">
-                <div className="tarjetitas-productos">
-                    <Image width={200} src={mouseGamer} alt="" /> 
-                    <span>GAMING</span>
-                </div>
+                <a href="/products?category=8" className="tarjetitas-productos">
+                    <Image width={200} src={pendrive} alt="" /> 
+                    <span>ALMACENAMIENTO</span>
+                </a>
 
-                <div className="tarjetitas-productos">
+                <a href="/products?category=4" className="tarjetitas-productos">
                     <Image width={200} src={auriculares} alt="" /> 
                     <span>SONIDO</span>
-                </div>
+                </a>
 
-                <div className="tarjetitas-productos">
+                <a href="/products?category=7" className="tarjetitas-productos">
                     <Image width={200} src={mouseOficina} alt="" /> 
-                    <span>OFICINA</span>
-                </div>
+                    <span>COMPUTADORAS</span>
+                </a>
             </div>
         </div>
     )

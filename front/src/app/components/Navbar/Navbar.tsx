@@ -55,6 +55,7 @@ const Navbar:React.FC = () => {
                     <div className="flex items-center gap-6">
                         <a href={routes.login} className="px-2 py-1 text-xs font-bold text-center md:text-base md:px-6 hover:bg-violeta-700 text-gris-100 bg-violeta-primario">Iniciar sesión</a>
                         <a href={routes.landing} className="font-bold text-violeta-primario">Landing</a>
+                        <a href={routes.products} className="font-bold text-violeta-primario">Products</a>
                     </div>
             }  
         </header>
