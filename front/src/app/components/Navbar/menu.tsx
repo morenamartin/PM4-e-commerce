@@ -24,7 +24,6 @@ const Menu = () => {
                         <TbTriangleFilled className="text-violeta-400"/>
                     </div>
                 <div className="flex flex-col justify-around w-48 gap-4 p-4 font-sans bg-violeta-400">
-                    <Link href={routes.landing} onClick={() => setMenu(false)} className="font-bold text-violeta-primario">Landing</Link>
                     <Link href={routes.products} onClick={() => setMenu(false)} className="font-bold text-violeta-primario">Products</Link>
                     <Link href={routes.cart} onClick={() => setMenu(false)}>
                         <div className="relative">
